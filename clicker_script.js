@@ -32,7 +32,7 @@ $(function() {
         updateCookieCount(cookies + 1);
 
         //cookie click animation
-        var initWidth = cookie.width();
+        var initWidth = cookieImage.width();
         var newWidth = initWidth + 50;
         var speed = 50;
         cookieImage.animate({'width': `${newWidth}px`,}, speed)
